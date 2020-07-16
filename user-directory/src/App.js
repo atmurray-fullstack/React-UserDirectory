@@ -62,7 +62,7 @@ function App() {
 
   return (
 
-    <EmployeeDirectory EmployeeDate={data}>
+    <EmployeeDirectory EmployeeData={data}>
     </EmployeeDirectory>
 
 
