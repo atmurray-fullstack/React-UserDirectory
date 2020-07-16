@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const SupervisorButton = (props) => {
 
@@ -23,7 +23,7 @@ const SupervisorButton = (props) => {
 
                     supeArr.map(el => (
                         <li className="list-group-item text-center" key={el.id}>
-                            <button type="button" class="btn btn-dark btn-block ">{el.supervisor}</button>
+                            <button id={el.supervisor} onClick={props.onClick} type="button" className="btn btn-dark btn-block ">{el.supervisor}</button>
                         </li>
 
                     ))
