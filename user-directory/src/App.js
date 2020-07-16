@@ -1,25 +1,72 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
+
+import EmployeeDirectory from './Views/EmployeeDirectory';
+
+
 function App() {
+
+  const [data, setData] = useState([
+    {
+      id: 1,
+      name: 'John',
+      job: 'developer',
+      dept: 'technology',
+      supervisor: 'Jak',
+
+    },
+    {
+      id: 2,
+      name: 'Dean',
+      job: 'developer',
+      dept: 'technology',
+      supervisor: 'Jak',
+
+    },
+    {
+      id: 3,
+      name: 'Ankit',
+      job: 'developer',
+      dept: 'technology',
+      supervisor: 'Jak'
+
+    },
+    {
+      id: 4,
+      name: 'John Hancock',
+      job: 'lawyer',
+      dept: 'legal',
+      supervisor: 'CEO',
+
+    },
+    {
+      id: 5,
+      name: 'Wendy',
+      job: 'artist',
+      dept: 'advertising',
+      supervisor: 'Marcus',
+
+    },
+    {
+      id: 6,
+      name: 'Andrew',
+      job: 'developer',
+      dept: 'advertising',
+      supervisor: 'Marcus',
+
+    },
+  ])
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <EmployeeDirectory EmployeeDate={data}>
+    </EmployeeDirectory>
+
+
+
   );
 }
 
