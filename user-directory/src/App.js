@@ -17,6 +17,22 @@ function App() {
 
     },
     {
+      id: 9,
+      name: 'Eun-Kyung',
+      job: 'paralegal',
+      dept: 'legal',
+      supervisor: 'CEO',
+
+    },
+    {
+      id: 7,
+      name: 'Ben',
+      job: 'writer',
+      dept: 'advertising',
+      supervisor: 'Marcus',
+
+    },
+    {
       id: 2,
       name: 'Dean',
       job: 'developer',
