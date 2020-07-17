@@ -7,7 +7,8 @@ const EmployeeDirectory = (props) => {
     return (
         <ul className="list-group">
             {EmployeeData.map(el => (
-                <li className="list-group-item text-center" key={el.id}>
+
+                <li className="list-group-item text-center" key={el.key}>
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">{el.name}</h5>

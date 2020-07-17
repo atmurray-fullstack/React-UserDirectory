@@ -21,7 +21,7 @@ const SupervisorButton = (props) => {
             <ul className='list-group text-left'>
                 {
                     supeArr.map(el => (
-                        <li className="list-group-item text-center" key={el.id}>
+                        <li className="list-group-item text-center" key={el.key}>
                             <button id={el.supervisor} onClick={props.onClick} type="button" className="btn btn-dark btn-block ">{el.supervisor}</button>
 
                         </li>

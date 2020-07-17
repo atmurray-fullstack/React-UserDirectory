@@ -9,7 +9,7 @@ function App() {
 
   const [data, setData] = useState([
     {
-      id: 1,
+      key: 1,
       name: 'John',
       job: 'developer',
       dept: 'technology',
@@ -17,7 +17,7 @@ function App() {
 
     },
     {
-      id: 9,
+      key: 9,
       name: 'Eun-Kyung',
       job: 'paralegal',
       dept: 'legal',
@@ -25,7 +25,7 @@ function App() {
 
     },
     {
-      id: 7,
+      key: 7,
       name: 'Ben',
       job: 'writer',
       dept: 'advertising',
@@ -33,7 +33,7 @@ function App() {
 
     },
     {
-      id: 2,
+      key: 2,
       name: 'Dean',
       job: 'developer',
       dept: 'technology',
@@ -41,7 +41,7 @@ function App() {
 
     },
     {
-      id: 3,
+      key: 3,
       name: 'Ankit',
       job: 'developer',
       dept: 'technology',
@@ -49,7 +49,7 @@ function App() {
 
     },
     {
-      id: 4,
+      key: 4,
       name: 'John Hancock',
       job: 'lawyer',
       dept: 'legal',
@@ -57,7 +57,7 @@ function App() {
 
     },
     {
-      id: 5,
+      key: 5,
       name: 'Wendy',
       job: 'artist',
       dept: 'advertising',
@@ -65,7 +65,7 @@ function App() {
 
     },
     {
-      id: 6,
+      key: 6,
       name: 'Andrew',
       job: 'developer',
       dept: 'advertising',
