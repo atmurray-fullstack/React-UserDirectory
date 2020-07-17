@@ -1,7 +1,4 @@
-# Project Title
-
-React-UserDirectory
-
+# React-UserDirectory
 
 ![Maintenance](https://img.shields.io/maintenance/no/2020?style=for-the-badge)
 
